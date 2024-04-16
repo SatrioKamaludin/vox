@@ -1,0 +1,71 @@
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\spa.proxy.json
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\appsettings.json
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Vox.Server.exe
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Vox.Server.deps.json
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Vox.Server.runtimeconfig.json
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Vox.Server.dll
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Vox.Server.pdb
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\satri\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.csproj.AssemblyReference.cache
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\spa.proxy.json
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.AssemblyInfoInputs.cache
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.AssemblyInfo.cs
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.csproj.CoreCompileInputs.cache
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets\msbuild.Vox.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Vox.Server.props
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Vox.Server.props
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Vox.Server.props
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\scopedcss\bundle\Vox.Server.styles.css
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.csproj.Up2Date
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.dll
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\refint\Vox.Server.dll
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.pdb
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.genruntimeconfig.cache
+C:\Users\satri\source\repos\Vox\Vox.Server\obj\Debug\net8.0\ref\Vox.Server.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\appsettings.json
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\spa.proxy.json
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Vox.Server.exe
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Vox.Server.deps.json
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Vox.Server.runtimeconfig.json
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Vox.Server.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Vox.Server.pdb
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.csproj.AssemblyReference.cache
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\spa.proxy.json
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.AssemblyInfoInputs.cache
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.AssemblyInfo.cs
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.csproj.CoreCompileInputs.cache
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.sourcelink.json
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets\msbuild.Vox.Server.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets\msbuild.build.Vox.Server.props
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Vox.Server.props
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Vox.Server.props
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\scopedcss\bundle\Vox.Server.styles.css
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.csproj.Up2Date
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\refint\Vox.Server.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.pdb
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.genruntimeconfig.cache
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\ref\Vox.Server.dll

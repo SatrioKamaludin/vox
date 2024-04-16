@@ -1,0 +1,2 @@
+C:\Users\satri\source\repos\Vox\vox.client\obj\Debug\vox.client.esproj.CoreCompileInputs.cache
+C:\Users\Satrio Kamaludin\source\repos\Vox\vox.client\obj\Debug\vox.client.esproj.CoreCompileInputs.cache

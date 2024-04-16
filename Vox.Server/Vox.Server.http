@@ -1,0 +1,6 @@
+@Vox.Server_HostAddress = http://localhost:5022
+
+GET {{Vox.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
