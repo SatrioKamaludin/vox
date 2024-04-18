@@ -78,6 +78,7 @@ if (app.Environment.IsDevelopment())
 app.UseAuthentication(); // Make sure this comes before UseAuthorization
 app.UseAuthorization();
 
+
 // Use CORS policy
 app.UseCors("AllowSpecificOrigin");
 

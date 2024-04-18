@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "aQKRqmlSdQOTE/cP9+1bic+e6N/EkqDTX9jjifKq8hgxUjQuJJ7Lt5/eViCVn52NknaJd/Of3MKbTcxMqndo+w==",
+  "dgSpecHash": "mUeY+Dw89BfCprl+C1B9q80k7jZB+outF3X0QgpzpO1OOpfPNIJsF57sDn8+anrPttqo7mcPGg9al7+C85dxMg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Vox.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Satrio Kamaludin\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.4\\microsoft.aspnetcore.spaproxy.8.0.4.nupkg.sha512",
     "C:\\Users\\Satrio Kamaludin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Satrio Kamaludin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Satrio Kamaludin\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Satrio Kamaludin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Satrio Kamaludin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Satrio Kamaludin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

@@ -4,11 +4,15 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
+using Newtonsoft.Json;
 using Vox.Server.Services;
 using Vox.Server.Exceptions;
 using Vox.Server.DTOs.User.RegisterUser;
 using Vox.Server.DTOs.User.LoginUser;
 using Vox.Server.DTOs.User.UpdateUser;
+using Vox.Server.DTOs;
+using System.Net;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Vox.Server.Controllers
 {
@@ -28,8 +32,16 @@ namespace Vox.Server.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> RegisterUser(RegisterUserDto registerUserDto)
         {
-            var registeredUser = await _authService.RegisterUserAsync(registerUserDto);
-            return Ok(registeredUser);
+            try
+            {
+                var registeredUser = await _authService.RegisterUserAsync(registerUserDto);
+                return Ok(registeredUser);
+            }
+            catch (Exception ex)
+            {
+                var errorResponse = JsonConvert.DeserializeObject<ErrorResponse>(ex.Message);
+                return StatusCode(errorResponse.StatusCode, errorResponse);
+            }
         }
 
         [HttpPost("login")]
@@ -54,7 +66,7 @@ namespace Vox.Server.Controllers
 
                 return Ok(loginResponse);
             }
-            return Unauthorized();
+            return Unauthorized(new { error = "invalid_credentials" });
         }
 
         [HttpGet("users/{id}")]
@@ -71,7 +83,7 @@ namespace Vox.Server.Controllers
 
             if (user == null)
             {
-                return NotFound();
+                return NotFound(new { message = $"No query results for model [App\\User] {id}", status_code = 404 });
             }
 
             return user;
@@ -93,9 +105,17 @@ namespace Vox.Server.Controllers
             var token = User.FindFirstValue(ClaimTypes.NameIdentifier);
             _logger.LogInformation("Token: {Token}", token);
 
-            await _authService.ChangePasswordAsync(id, changePasswordDto, token);
-            return Ok();
+            var result = await _authService.ChangePasswordAsync(id, changePasswordDto, token);
+            if (result is ErrorResponse errorResponse)
+            {
+                return StatusCode(errorResponse.StatusCode, errorResponse);
+            }
+            else
+            {
+                return Ok(result);
+            }
         }
+
 
         [HttpDelete("users/{id}")]
         public async Task<IActionResult> DeleteUser(int id)

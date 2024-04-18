@@ -10,7 +10,7 @@ namespace Vox.Server.Services
         Task<LoginResponseDto> LoginUserAsync(LoginUserDto loginUserDto);
         Task<RegisteredUserDto> GetUserById(int id, string token);
         Task UpdateUserAsync(int id, UpdateUserDto updateUserDto, string token);
-        Task ChangePasswordAsync(int id, ChangePasswordDto changePasswordDto, string token);
+        Task<object> ChangePasswordAsync(int id, ChangePasswordDto changePasswordDto, string token);
         Task DeleteUserAsync(int id, string token);
     }
 }

@@ -2,6 +2,7 @@
 using System.Net.Http;
 using Vox.Server.DTOs.Organizer;
 using Vox.Server.Exceptions;
+using System.Net;
 
 namespace Vox.Server.Services
 {
@@ -45,6 +46,10 @@ namespace Vox.Server.Services
             {
                 return await response.Content.ReadFromJsonAsync<OrganizerDto>();
             }
+            else if (response.StatusCode == HttpStatusCode.NotFound)
+            {
+                return null;
+            }
             else
             {
                 var errorContent = await response.Content.ReadAsStringAsync();
@@ -84,14 +89,19 @@ namespace Vox.Server.Services
             }
         }
 
-        public async Task DeleteOrganizerAsync(int id, string token)
+        public async Task<HttpResponseMessage> DeleteOrganizerAsync(int id, string token)
         {
             _logger.LogInformation("Bearer token: {Token}", token);
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
             var response = await _httpClient.DeleteAsync($"https://api-sport-events.php9-01.test.voxteneo.com/api/v1/organizers/{id}");
 
-            if (!response.IsSuccessStatusCode)
+            if (response.StatusCode == HttpStatusCode.NotFound || response.IsSuccessStatusCode)
+            {
+                // Return the response instead of throwing an exception
+                return response;
+            }
+            else
             {
                 var errorContent = await response.Content.ReadAsStringAsync();
                 throw new ApiException(response.StatusCode, errorContent);

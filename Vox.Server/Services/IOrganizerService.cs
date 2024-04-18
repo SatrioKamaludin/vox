@@ -8,6 +8,6 @@ namespace Vox.Server.Services
         Task<OrganizerDto> GetOrganizerByIdAsync(int id, string token);
         Task<OrganizerDto> CreateOrganizerAsync(CreateOrganizerDto createOrganizerDto, string token);
         Task UpdateOrganizerAsync(int id, CreateOrganizerDto updateOrganizerDto, string token);
-        Task DeleteOrganizerAsync(int id, string token);
+        Task<HttpResponseMessage> DeleteOrganizerAsync(int id, string token);
     }
 }

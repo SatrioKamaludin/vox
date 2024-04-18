@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\dtos\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\dtos\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\services\\organizerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\services\\organizerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\dtos\\organizer\\paginationmetadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\dtos\\organizer\\paginationmetadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\dtos\\organizer\\organizersresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\dtos\\organizer\\organizersresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\controllers\\organizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\controllers\\organizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\services\\iorganizerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\services\\iorganizerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\dtos\\user\\registeruser\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\dtos\\user\\registeruser\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\components\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\api\\api.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\api\\api.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ErrorResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\ErrorResponse.cs",
-              "RelativeDocumentMoniker": "Vox.Server\\DTOs\\ErrorResponse.cs",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\ErrorResponse.cs",
-              "RelativeToolTip": "Vox.Server\\DTOs\\ErrorResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T05:35:30.1Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\User\\RegisterUser\\RegisterUserDto.cs",
-              "RelativeDocumentMoniker": "Vox.Server\\DTOs\\User\\RegisterUser\\RegisterUserDto.cs",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\User\\RegisterUser\\RegisterUserDto.cs",
-              "RelativeToolTip": "Vox.Server\\DTOs\\User\\RegisterUser\\RegisterUserDto.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T05:15:19.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "OrganizersResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\Organizer\\OrganizersResponseDto.cs",
+              "RelativeDocumentMoniker": "Vox.Server\\DTOs\\Organizer\\OrganizersResponseDto.cs",
+              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\Organizer\\OrganizersResponseDto.cs",
+              "RelativeToolTip": "Vox.Server\\DTOs\\Organizer\\OrganizersResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T07:30:11.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Vox.Server\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Vox.Server\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAAB8AAAAmAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAAAFgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T05:14:36.489Z",
+              "WhenOpened": "2024-04-18T04:46:30.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrganizerController.cs",
+              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Controllers\\OrganizerController.cs",
+              "RelativeDocumentMoniker": "Vox.Server\\Controllers\\OrganizerController.cs",
+              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Controllers\\OrganizerController.cs",
+              "RelativeToolTip": "Vox.Server\\Controllers\\OrganizerController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T04:46:11.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrganizerService.cs",
+              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\OrganizerService.cs",
+              "RelativeDocumentMoniker": "Vox.Server\\Services\\OrganizerService.cs",
+              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\OrganizerService.cs",
+              "RelativeToolTip": "Vox.Server\\Services\\OrganizerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T04:46:05.631Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Vox.Server\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\AuthService.cs",
-              "RelativeToolTip": "Vox.Server\\Services\\AuthService.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAAvAAAA",
+              "Title": "PaginationMetaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\Organizer\\PaginationMetaDto.cs",
+              "RelativeDocumentMoniker": "Vox.Server\\DTOs\\Organizer\\PaginationMetaDto.cs",
+              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\Organizer\\PaginationMetaDto.cs",
+              "RelativeToolTip": "Vox.Server\\DTOs\\Organizer\\PaginationMetaDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvw0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T05:14:16.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Register.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Register.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\components\\Register.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Register.jsx",
-              "RelativeToolTip": "vox.client\\src\\components\\Register.jsx",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAswFQAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-16T04:30:40.397Z",
+              "WhenOpened": "2024-04-18T07:28:43.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "api.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\api\\api.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\api\\api.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\api\\api.jsx",
-              "RelativeToolTip": "vox.client\\src\\api\\api.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-16T04:22:47.164Z",
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Vox.Server\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\IAuthService.cs",
+              "RelativeToolTip": "Vox.Server\\Services\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T04:46:13.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IOrganizerService.cs",
+              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\IOrganizerService.cs",
+              "RelativeDocumentMoniker": "Vox.Server\\Services\\IOrganizerService.cs",
+              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\IOrganizerService.cs",
+              "RelativeToolTip": "Vox.Server\\Services\\IOrganizerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-18T06:38:50.68Z",
               "EditorCaption": ""
             }
           ]

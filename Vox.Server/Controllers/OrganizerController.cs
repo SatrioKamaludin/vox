@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Net;
 using System.Security.Claims;
 using Vox.Server.DTOs.Organizer;
 using Vox.Server.Services;
@@ -25,7 +26,7 @@ namespace Vox.Server.Controllers
             _logger.LogInformation("Token: {Token}", token);
 
             var organizers = await _organizerService.GetOrganizersAsync(token, page, perPage);
-            return Ok(organizers.Data);
+            return Ok(organizers);
         }
 
         [HttpGet("organizers/{id}")]
@@ -35,6 +36,10 @@ namespace Vox.Server.Controllers
             _logger.LogInformation("Token: {Token}", token);
 
             var organizer = await _organizerService.GetOrganizerByIdAsync(id, token);
+            if (organizer == null)
+            {
+                return NotFound(new { message = $"No query results for model [App\\Organizer] {id}", status_code = 404 });
+            }
             return Ok(organizer);
         }
 
@@ -64,8 +69,20 @@ namespace Vox.Server.Controllers
             var token = User.FindFirstValue(ClaimTypes.NameIdentifier);
             _logger.LogInformation("Token: {Token}", token);
 
-            await _organizerService.DeleteOrganizerAsync(id, token);
-            return NoContent(); // Return 204 No Content status code
+            var response = await _organizerService.DeleteOrganizerAsync(id, token);
+            if (response.StatusCode == HttpStatusCode.NotFound)
+            {
+                return NotFound(new { message = $"No query results for model [App\\Organizer] {id}", status_code = 404 });
+            }
+            else if (response.IsSuccessStatusCode)
+            {
+                return NoContent(); // Return 204 No Content status code
+            }
+            else
+            {
+                // Handle other error responses here
+                return StatusCode((int)response.StatusCode, await response.Content.ReadAsStringAsync());
+            }
         }
     }
 }

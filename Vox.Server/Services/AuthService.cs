@@ -3,8 +3,10 @@ using System.Net;
 using System.Net.Http.Headers;
 using Vox.Server.DTOs.User.LoginUser;
 using Vox.Server.DTOs.User.RegisterUser;
-using Vox.Server.DTOs.User.UpdateUser;
+using Vox.Server.DTOs;
 using Vox.Server.Exceptions;
+using Newtonsoft.Json;
+using Vox.Server.DTOs.User.UpdateUser;
 
 namespace Vox.Server.Services
 {
@@ -22,7 +24,13 @@ namespace Vox.Server.Services
         public async Task<RegisteredUserDto> RegisterUserAsync(RegisterUserDto registerUserDto)
         {
             var response = await _httpClient.PostAsJsonAsync("https://api-sport-events.php9-01.test.voxteneo.com/api/v1/users", registerUserDto);
-            response.EnsureSuccessStatusCode();
+
+            if (!response.IsSuccessStatusCode)
+            {
+                var errorContent = await response.Content.ReadAsStringAsync();
+                throw new Exception(errorContent);
+            }
+
             return await response.Content.ReadFromJsonAsync<RegisteredUserDto>();
         }
 
@@ -31,7 +39,12 @@ namespace Vox.Server.Services
             var response = await _httpClient.PostAsJsonAsync("https://api-sport-events.php9-01.test.voxteneo.com/api/v1/users/login", loginUserDto);
             if (response.IsSuccessStatusCode) {
                 return await response.Content.ReadFromJsonAsync<LoginResponseDto>();
-            } 
+            }
+            else if (response.StatusCode == HttpStatusCode.Unauthorized)
+            {
+                // Return null instead of throwing an exception
+                return null;
+            }
             else
             {
                 // Handle error responses here
@@ -53,6 +66,11 @@ namespace Vox.Server.Services
             if (response.IsSuccessStatusCode)
             {
                 return await response.Content.ReadFromJsonAsync<RegisteredUserDto>();
+            }
+            else if (response.StatusCode == HttpStatusCode.NotFound)
+            {
+                // Return null instead of throwing an exception
+                return null;
             }
             else
             {
@@ -80,19 +98,42 @@ namespace Vox.Server.Services
             }
         }
 
-        public async Task ChangePasswordAsync(int id, ChangePasswordDto changePasswordDto, string token)
+        public async Task<object> ChangePasswordAsync(int id, ChangePasswordDto changePasswordDto, string token)
         {
             _logger.LogInformation("Bearer token: {Token}", token);
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
             var response = await _httpClient.PutAsJsonAsync($"https://api-sport-events.php9-01.test.voxteneo.com/api/v1/users/{id}/password", changePasswordDto);
 
-            if (!response.IsSuccessStatusCode)
+            if (response.StatusCode == HttpStatusCode.NotFound)
+            {
+                return new ErrorResponse
+                {
+                    Message = $"No query results for model [App\\User] {id}",
+                    StatusCode = (int)HttpStatusCode.NotFound
+                };
+            }
+            else if (response.IsSuccessStatusCode)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                if (string.IsNullOrEmpty(responseContent))
+                {
+                    return null;
+                }
+                else
+                {
+                    return JsonConvert.DeserializeObject<ChangePasswordDto>(responseContent);
+                }
+            }
+            else
             {
                 var errorContent = await response.Content.ReadAsStringAsync();
-                throw new ApiException(response.StatusCode, errorContent);
+                var errorResponse = JsonConvert.DeserializeObject<ErrorResponse>(errorContent);
+                errorResponse.StatusCode = (int)response.StatusCode;
+                return errorResponse;
             }
         }
+
 
         public async Task DeleteUserAsync(int id, string token)
         {

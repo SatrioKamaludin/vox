@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Vox.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00cbc609cd33b2b6d80328a220af097baa344488")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f2d26b90be4bf11d455ac5e0a3360e494049a75")]
 [assembly: System.Reflection.AssemblyProductAttribute("Vox.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vox.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

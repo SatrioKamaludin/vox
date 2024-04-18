@@ -69,3 +69,4 @@ C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\refint\Vo
 C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.pdb
 C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.genruntimeconfig.cache
 C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\ref\Vox.Server.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
