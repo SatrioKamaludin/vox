@@ -6,14 +6,18 @@ import {
     FormLabel,
     Input,
     Button,
-    Text, Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton
+    Text
 } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
 import axios from 'axios'
+import RegisterSuccess from './RegisterSuccess'
+import RegisterError from './RegisterError';
 
 function Register() {
-    const [showModal, setShowModal] = useState(false);
+    const [showSuccessModal, setShowSuccessModal] = useState(false);
+    const [showErrorModal, setShowErrorModal] = useState(false);
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [errors, setErrors] = useState({});
 
     const handleSubmit = async (event) => {
         event.preventDefault();
@@ -29,9 +33,13 @@ function Register() {
             });
 
             if (response.status === 200) {
-                setShowModal(true);
-            }
+                setShowSuccessModal(true);
+            } 
         } catch (error) {
+            if (error.response && error.response.status === 400) {
+                setErrors(error.response.data.errors);
+                setShowErrorModal(true);
+            }
             console.error('Error registering user:', error);
         } finally {
             setIsSubmitting(false);
@@ -64,16 +72,8 @@ function Register() {
                 <Button colorScheme="blue" type="submit" isLoading={isSubmitting}>Register</Button>
                 <Text fontSize='l'>Already have an account? <Link to="/login" style={{ color: 'blue' }}>Login</Link></Text>
             </VStack>
-            <Modal isOpen={showModal} onClose={() => setShowModal(false)}>
-                <ModalOverlay />
-                <ModalContent>
-                    <ModalHeader>Application submitted!</ModalHeader>
-                    <ModalCloseButton />
-                    <ModalBody>
-                        Thanks for submitting your application. Our team will get back to you soon.
-                    </ModalBody>
-                </ModalContent>
-            </Modal>
+            <RegisterSuccess isOpen={showSuccessModal} onClose={() => setShowSuccessModal(false)} />
+            <RegisterError isOpen={showErrorModal} onClose={() => setShowErrorModal(false)} errors={errors} />
         </Box>
     );
 }

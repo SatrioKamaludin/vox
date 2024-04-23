@@ -42,12 +42,10 @@ namespace Vox.Server.Services
             }
             else if (response.StatusCode == HttpStatusCode.Unauthorized)
             {
-                // Return null instead of throwing an exception
                 return null;
             }
             else
             {
-                // Handle error responses here
                 var errorContent = await response.Content.ReadAsStringAsync();
                 throw new ApiException(response.StatusCode, errorContent);
             }    

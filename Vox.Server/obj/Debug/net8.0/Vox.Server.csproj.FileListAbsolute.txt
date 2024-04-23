@@ -70,3 +70,11 @@ C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Serve
 C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\Vox.Server.genruntimeconfig.cache
 C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\obj\Debug\net8.0\ref\Vox.Server.dll
 C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Satrio Kamaludin\source\repos\Vox\Vox.Server\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

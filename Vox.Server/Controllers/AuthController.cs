@@ -69,6 +69,7 @@ namespace Vox.Server.Controllers
             return Unauthorized(new { error = "invalid_credentials" });
         }
 
+
         [HttpGet("users/{id}")]
         public async Task<ActionResult<RegisteredUserDto>> GetUser(int id)
         {
