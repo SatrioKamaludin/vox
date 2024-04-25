@@ -1,4 +1,5 @@
-﻿using Vox.Server.DTOs.Organizer;
+﻿using Vox.Server.DTOs;
+using Vox.Server.DTOs.Organizer;
 
 namespace Vox.Server.Services
 {
@@ -7,7 +8,7 @@ namespace Vox.Server.Services
         Task<OrganizersResponseDto> GetOrganizersAsync(string token, int page, int perPage);
         Task<OrganizerDto> GetOrganizerByIdAsync(int id, string token);
         Task<OrganizerDto> CreateOrganizerAsync(CreateOrganizerDto createOrganizerDto, string token);
-        Task UpdateOrganizerAsync(int id, CreateOrganizerDto updateOrganizerDto, string token);
+        Task<ErrorResponse> UpdateOrganizerAsync(int id, CreateOrganizerDto updateOrganizerDto, string token);
         Task<HttpResponseMessage> DeleteOrganizerAsync(int id, string token);
     }
 }

@@ -53,13 +53,9 @@ namespace Vox.Server.Services
 
         public async Task<RegisteredUserDto> GetUserById(int id, string token)
         {
-            // Log the bearer token
             _logger.LogInformation("Bearer token: {Token}", token);
-
-            // Include the bearer token in the request headers
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
-            // Call the external API with the token included in the headers
             var response = await _httpClient.GetAsync($"https://api-sport-events.php9-01.test.voxteneo.com/api/v1/users/{id}");
             if (response.IsSuccessStatusCode)
             {
@@ -78,12 +74,9 @@ namespace Vox.Server.Services
             }
         }
 
-        public async Task UpdateUserAsync(int id, UpdateUserDto updateUserDto, string token)
+        public async Task<ErrorResponse> UpdateUserAsync(int id, UpdateUserDto updateUserDto, string token)
         {
-            // Log the bearer token
             _logger.LogInformation("Bearer token: {Token}", token);
-
-            // Include the bearer token in the request headers
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
             var response = await _httpClient.PutAsJsonAsync($"https://api-sport-events.php9-01.test.voxteneo.com/api/v1/users/{id}", updateUserDto);
@@ -92,8 +85,15 @@ namespace Vox.Server.Services
             {
                 // Handle error responses here
                 var errorContent = await response.Content.ReadAsStringAsync();
-                throw new ApiException(response.StatusCode, errorContent);
+                var errorResponse = JsonConvert.DeserializeObject<ErrorResponse>(errorContent);
+                return new ErrorResponse
+                {
+                    Message = errorResponse.Message,
+                    StatusCode = (int)response.StatusCode
+                };
             }
+
+            return null;
         }
 
         public async Task<object> ChangePasswordAsync(int id, ChangePasswordDto changePasswordDto, string token)
@@ -133,18 +133,32 @@ namespace Vox.Server.Services
         }
 
 
-        public async Task DeleteUserAsync(int id, string token)
+        public async Task<ErrorResponse> DeleteUserAsync(int id, string token)
         {
             _logger.LogInformation("Bearer token: {Token}", token);
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
 
             var response = await _httpClient.DeleteAsync($"http://localhost:5022/api/Auth/users/{id}");
 
-            if (!response.IsSuccessStatusCode)
+            if (response.StatusCode == HttpStatusCode.NotFound)
+            {
+                return new ErrorResponse
+                {
+                    Message = $"No query results for model [App\\User] {id}",
+                    StatusCode = (int)HttpStatusCode.NotFound
+                };
+            }
+            else if (!response.IsSuccessStatusCode)
             {
                 var errorContent = await response.Content.ReadAsStringAsync();
-                throw new ApiException(response.StatusCode, errorContent);
+                return new ErrorResponse
+                {
+                    Message = errorContent,
+                    StatusCode = (int)response.StatusCode
+                };
             }
+
+            return null;
         }
 
     }

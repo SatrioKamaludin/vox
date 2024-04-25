@@ -3,6 +3,8 @@ using System.Net.Http;
 using Vox.Server.DTOs.Organizer;
 using Vox.Server.Exceptions;
 using System.Net;
+using Newtonsoft.Json;
+using Vox.Server.DTOs;
 
 namespace Vox.Server.Services
 {
@@ -75,7 +77,7 @@ namespace Vox.Server.Services
             }
         }
 
-        public async Task UpdateOrganizerAsync(int id, CreateOrganizerDto updateOrganizerDto, string token)
+        public async Task<ErrorResponse> UpdateOrganizerAsync(int id, CreateOrganizerDto updateOrganizerDto, string token)
         {
             _logger.LogInformation("Bearer token: {Token}", token);
             _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
@@ -84,9 +86,17 @@ namespace Vox.Server.Services
 
             if (!response.IsSuccessStatusCode)
             {
+                // Handle error responses here
                 var errorContent = await response.Content.ReadAsStringAsync();
-                throw new ApiException(response.StatusCode, errorContent);
+                var errorResponse = JsonConvert.DeserializeObject<ErrorResponse>(errorContent);
+                return new ErrorResponse
+                {
+                    Message = errorResponse.Message,
+                    StatusCode = (int)response.StatusCode
+                };
             }
+
+            return null;
         }
 
         public async Task<HttpResponseMessage> DeleteOrganizerAsync(int id, string token)

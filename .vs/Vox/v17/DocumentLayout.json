@@ -3,76 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\components\\organizer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\components\\organizer.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\components\\organizer\\organizerdetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\components\\organizer\\organizerdetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\components\\user.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\components\\user.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\components\\navigation.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\components\\navigation.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\components\\register\\registererror.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\components\\register\\registererror.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\api\\publicroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\api\\publicroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\components\\navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\api\\authcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\api\\authcontext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\components\\login\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\components\\login\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\api\\privateroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\api\\privateroute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\components\\login\\loginerror.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\components\\login\\loginerror.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{17A3EA1F-8223-4500-A396-6AF262FDADED}|vox.client\\vox.client.esproj|solutionrelative:vox.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\dtos\\user\\loginuser\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\dtos\\user\\loginuser\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\dtos\\user\\registeruser\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\dtos\\user\\registeruser\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|c:\\users\\satrio kamaludin\\source\\repos\\vox\\vox.server\\dtos\\user\\registeruser\\registereduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{023B5D7B-DF02-4A02-98E7-400ECD5E0F6E}|Vox.Server\\Vox.Server.csproj|solutionrelative:vox.server\\dtos\\user\\registeruser\\registereduserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,237 +30,54 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Login\\Login.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\components\\Login\\Login.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Login\\Login.jsx",
-              "RelativeToolTip": "vox.client\\src\\components\\Login\\Login.jsx",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA0AAABAAAAA",
+              "DocumentIndex": 1,
+              "Title": "OrganizerDetails.jsx",
+              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Organizer\\OrganizerDetails.jsx",
+              "RelativeDocumentMoniker": "vox.client\\src\\components\\Organizer\\OrganizerDetails.jsx",
+              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Organizer\\OrganizerDetails.jsx",
+              "RelativeToolTip": "vox.client\\src\\components\\Organizer\\OrganizerDetails.jsx",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-23T08:50:25.734Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-04-25T09:34:55.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "User.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\User.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\components\\User.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\User.jsx",
-              "RelativeToolTip": "vox.client\\src\\components\\User.jsx",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBMAAAA2AAAA",
+              "Title": "Organizer.jsx",
+              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Organizer.jsx",
+              "RelativeDocumentMoniker": "vox.client\\src\\components\\Organizer.jsx",
+              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Organizer.jsx",
+              "RelativeToolTip": "vox.client\\src\\components\\Organizer.jsx",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAIAAAABwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-23T10:05:56.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Navbar.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Navbar.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\components\\Navbar.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Navbar.jsx",
-              "RelativeToolTip": "vox.client\\src\\components\\Navbar.jsx",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAACUAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-23T09:39:22.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PublicRoute.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\api\\PublicRoute.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\api\\PublicRoute.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\api\\PublicRoute.jsx",
-              "RelativeToolTip": "vox.client\\src\\api\\PublicRoute.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-23T09:17:59.837Z",
+              "WhenOpened": "2024-04-25T07:30:00.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RegisterError.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Register\\RegisterError.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\components\\Register\\RegisterError.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Register\\RegisterError.jsx",
-              "RelativeToolTip": "vox.client\\src\\components\\Register\\RegisterError.jsx",
+              "Title": "User.jsx",
+              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\User.jsx",
+              "RelativeDocumentMoniker": "vox.client\\src\\components\\User.jsx",
+              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\User.jsx",
+              "RelativeToolTip": "vox.client\\src\\components\\User.jsx",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAF0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-04-25T07:06:07.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.jsx",
+              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Login\\Login.jsx",
+              "RelativeDocumentMoniker": "vox.client\\src\\components\\Login\\Login.jsx",
+              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Login\\Login.jsx",
+              "RelativeToolTip": "vox.client\\src\\components\\Login\\Login.jsx",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-23T09:05:20.905Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\App.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\App.jsx",
-              "RelativeToolTip": "vox.client\\src\\App.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-23T08:55:32.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Navigation.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Navigation.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\components\\Navigation.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Navigation.jsx",
-              "RelativeToolTip": "vox.client\\src\\components\\Navigation.jsx",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAA4AAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-23T08:54:54.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PrivateRoute.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\api\\PrivateRoute.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\api\\PrivateRoute.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\api\\PrivateRoute.jsx",
-              "RelativeToolTip": "vox.client\\src\\api\\PrivateRoute.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-23T08:53:53.95Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginError.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Login\\LoginError.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\components\\Login\\LoginError.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Login\\LoginError.jsx",
-              "RelativeToolTip": "vox.client\\src\\components\\Login\\LoginError.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-23T08:49:57.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AuthContext.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\api\\AuthContext.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\api\\AuthContext.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\api\\AuthContext.jsx",
-              "RelativeToolTip": "vox.client\\src\\api\\AuthContext.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-23T08:47:32.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Layout.jsx",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Layout.jsx",
-              "RelativeDocumentMoniker": "vox.client\\src\\components\\Layout.jsx",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\src\\components\\Layout.jsx",
-              "RelativeToolTip": "vox.client\\src\\components\\Layout.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-04-23T08:47:06.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Program.cs",
-              "RelativeDocumentMoniker": "Vox.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Program.cs",
-              "RelativeToolTip": "Vox.Server\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T08:13:50.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Vox.Server\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Vox.Server\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAADIAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:21:16.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Vox.Server\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\AuthService.cs",
-              "RelativeToolTip": "Vox.Server\\Services\\AuthService.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAACQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:20:54.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Vox.Server\\Services\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\Services\\IAuthService.cs",
-              "RelativeToolTip": "Vox.Server\\Services\\IAuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:20:51.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RegisterUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\User\\RegisterUser\\RegisterUserDto.cs",
-              "RelativeDocumentMoniker": "Vox.Server\\DTOs\\User\\RegisterUser\\RegisterUserDto.cs",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\User\\RegisterUser\\RegisterUserDto.cs",
-              "RelativeToolTip": "Vox.Server\\DTOs\\User\\RegisterUser\\RegisterUserDto.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAABMAAAB6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:18:18.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RegisteredUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\User\\RegisterUser\\RegisteredUserDto.cs",
-              "RelativeDocumentMoniker": "Vox.Server\\DTOs\\User\\RegisterUser\\RegisteredUserDto.cs",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\User\\RegisterUser\\RegisteredUserDto.cs",
-              "RelativeToolTip": "Vox.Server\\DTOs\\User\\RegisterUser\\RegisteredUserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:18:17.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "LoginUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\User\\LoginUser\\LoginUserDto.cs",
-              "RelativeDocumentMoniker": "Vox.Server\\DTOs\\User\\LoginUser\\LoginUserDto.cs",
-              "ToolTip": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\DTOs\\User\\LoginUser\\LoginUserDto.cs",
-              "RelativeToolTip": "Vox.Server\\DTOs\\User\\LoginUser\\LoginUserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:18:10.828Z",
+              "WhenOpened": "2024-04-25T07:06:03.786Z",
               "EditorCaption": ""
             }
           ]

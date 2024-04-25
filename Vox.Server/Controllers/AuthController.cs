@@ -13,6 +13,11 @@ using Vox.Server.DTOs.User.UpdateUser;
 using Vox.Server.DTOs;
 using System.Net;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Http.HttpResults;
 
 namespace Vox.Server.Controllers
 {
@@ -50,36 +55,16 @@ namespace Vox.Server.Controllers
             var loginResponse = await _authService.LoginUserAsync(loginUserDto);
             if (loginResponse != null)
             {
-                var claims = new List<Claim>
-                {
-                    new Claim(ClaimTypes.NameIdentifier, loginResponse.Token)
-                };
-
-                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-
-                var authProperties = new AuthenticationProperties();
-
-                await HttpContext.SignInAsync(
-                    CookieAuthenticationDefaults.AuthenticationScheme,
-                    new ClaimsPrincipal(claimsIdentity),
-                    authProperties);
-
                 return Ok(loginResponse);
             }
             return Unauthorized(new { error = "invalid_credentials" });
         }
 
-
         [HttpGet("users/{id}")]
         public async Task<ActionResult<RegisteredUserDto>> GetUser(int id)
         {
-            foreach (var claim in User.Claims)
-            {
-                _logger.LogInformation("Claim: {Type} - {Value}", claim.Type, claim.Value);
-            }
-
-            var token = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            _logger.LogInformation("Token: {Token}", token);
+            var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            _logger.LogInformation("User ID: {UserId}", id);
             var user = await _authService.GetUserById(id, token);
 
             if (user == null)
@@ -90,20 +75,28 @@ namespace Vox.Server.Controllers
             return user;
         }
 
+
         [HttpPut("users/{id}")]
         public async Task<IActionResult> UpdateUser(int id, UpdateUserDto updateUserDto)
         {
-            var token = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
             _logger.LogInformation("Token: {Token}", token);
 
-            await _authService.UpdateUserAsync(id, updateUserDto, token);
-            return Ok();
+            var result = await _authService.UpdateUserAsync(id, updateUserDto, token);
+            if (result is ErrorResponse errorResponse)
+            {
+                return StatusCode(errorResponse.StatusCode, errorResponse);
+            }
+            else
+            {
+                return NoContent();
+            }
         }
 
         [HttpPut("users/{id}/password")]
         public async Task<IActionResult> ChangePassword(int id, ChangePasswordDto changePasswordDto)
         {
-            var token = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
             _logger.LogInformation("Token: {Token}", token);
 
             var result = await _authService.ChangePasswordAsync(id, changePasswordDto, token);
@@ -113,7 +106,7 @@ namespace Vox.Server.Controllers
             }
             else
             {
-                return Ok(result);
+                return NoContent();
             }
         }
 
@@ -121,11 +114,18 @@ namespace Vox.Server.Controllers
         [HttpDelete("users/{id}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
-            var token = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
             _logger.LogInformation("Token: {Token}", token);
 
-            await _authService.DeleteUserAsync(id, token);
-            return NoContent();
+            var result = await _authService.DeleteUserAsync(id, token);
+            if (result is ErrorResponse errorResponse)
+            {
+                return StatusCode(errorResponse.StatusCode, errorResponse);
+            }
+            else
+            {
+                return NoContent();
+            }
         }
     }
 }
