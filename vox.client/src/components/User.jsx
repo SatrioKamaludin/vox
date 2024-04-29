@@ -1,10 +1,10 @@
 import {
     Box,
+    HStack,
     VStack,
     Heading,
-    InputGroup, Input, InputRightElement,
+    InputGroup, Input,
     Button,
-    Modal, ModalOverlay, ModalContent, ModalHeader, ModalBody, ModalCloseButton,
     Spinner
 } from '@chakra-ui/react';
 import { SearchIcon } from '@chakra-ui/icons';
@@ -12,15 +12,18 @@ import Layout from './Layout';
 import { useState, useContext } from 'react';
 import axios from 'axios';
 import { AuthContext } from '../api/AuthContext';
+import UserDetailModal from './User/UserDetailModal';
+import UpdateUserModal from './User/UpdateUserModal';
+import ChangePasswordModal from './User/ChangePasswordModal';
 
 function User() {
     const [userId, setUserId] = useState('');
     const [user, setUser] = useState(null);
     const [isOpen, setIsOpen] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
-
+    const [isUpdateModalOpen, setIsUpdateModalOpen] = useState(false);
+    const [isChangePasswordModalOpen, setIsChangePasswordModalOpen] = useState(false);
     const { token } = useContext(AuthContext);
-
 
     async function getUserById(userId, token) {
         setIsLoading(true);
@@ -41,7 +44,6 @@ function User() {
                     status_code: 404
                 };
             }
-            // Handle the error according to your application logic
         } finally {
             setIsLoading(false);
         }
@@ -50,15 +52,19 @@ function User() {
 
     const handleSubmit = async (event) => {
         event.preventDefault();
-
-        // Call the getUserById API
         const response = await getUserById(userId, token);
         if (response) {
             setUser(response);
             setIsOpen(true);
-        } else {
-            // Handle the case when the user is not found
         }
+    };
+
+    const handleUpdate = () => {
+        setIsUpdateModalOpen(true);
+    };
+
+    const handleChangePassword = () => {
+        setIsChangePasswordModalOpen(true);
     };
 
     const handleClose = () => {
@@ -80,30 +86,16 @@ function User() {
                                 </Button>
                             </InputGroup>
                         </form>
+                        <HStack>
+                            <Button onClick={handleChangePassword}>Change Password</Button>
+                            <Button onClick={handleUpdate}>Change Name and Email</Button>
+                        </HStack>
                     </VStack>
                 </Box>
             </Layout>
-            {user && (
-                <Modal isOpen={isOpen} onClose={handleClose}>
-                    <ModalOverlay />
-                    <ModalContent>
-                        <ModalHeader>{user.status_code === 404 ? "Not Found" : "User Details"}</ModalHeader>
-                        <ModalCloseButton />
-                        <ModalBody>
-                            {user.status_code === 404 ? (
-                                <p>{user.message}</p>
-                            ) : (
-                                <>
-                                    <p>ID: {user.id}</p>
-                                    <p>First Name: {user.firstName}</p>
-                                    <p>Last Name: {user.lastName}</p>
-                                    <p>Email: {user.email}</p>
-                                </>
-                            )}
-                        </ModalBody>
-                    </ModalContent>
-                </Modal>
-            )}
+            <UserDetailModal userId={userId} isOpen={isOpen} onClose={handleClose} token={token} />
+            <UpdateUserModal isOpen={isUpdateModalOpen} onClose={() => setIsUpdateModalOpen(false)} />
+            <ChangePasswordModal isOpen={isChangePasswordModalOpen} onClose={() => setIsChangePasswordModalOpen(false)} />
        </>
   );
 }

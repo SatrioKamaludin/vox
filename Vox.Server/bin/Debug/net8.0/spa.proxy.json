@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\Vox.Server\\..\\vox.client",
+"WorkingDirectory": "C:\\Users\\satri\\source\\repos\\vox\\Vox.Server\\..\\vox.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

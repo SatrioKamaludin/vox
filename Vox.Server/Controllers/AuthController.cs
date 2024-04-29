@@ -75,7 +75,6 @@ namespace Vox.Server.Controllers
             return user;
         }
 
-
         [HttpPut("users/{id}")]
         public async Task<IActionResult> UpdateUser(int id, UpdateUserDto updateUserDto)
         {

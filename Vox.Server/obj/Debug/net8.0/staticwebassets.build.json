@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "xbdaWMtSjHY9vR4o6LBuEFNVxmPcI4sydy2N2tuNT8I=",
+  "Hash": "aJVeBxsk8JWGIcGSXrajsO1YsBLetWA9GuQdmTQpX04=",
   "Source": "Vox.Server",
   "BasePath": "_content/Vox.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Satrio Kamaludin\\source\\repos\\Vox\\vox.client\\vox.client.esproj",
+      "Identity": "C:\\Users\\satri\\source\\repos\\vox\\vox.client\\vox.client.esproj",
       "Version": 2,
       "Source": "vox.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

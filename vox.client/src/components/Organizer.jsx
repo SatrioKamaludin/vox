@@ -6,13 +6,10 @@ import {
     Table,
     Thead,
     Tbody,
-    Tfoot,
     Tr,
     Th,
     Td,
-    TableCaption,
     TableContainer,
-    Select,
     IconButton,
     Spinner,
     Button,
@@ -24,6 +21,9 @@ import Layout from './Layout';
 import { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../api/AuthContext';
 import OrganizerDetails from './Organizer/OrganizerDetails';
+import UpdateOrganizerModal from './Organizer/UpdateOrganizerModal';
+import DeleteOrganizerModal from './Organizer/DeleteOrganizerModal';
+import AddOrganizerModal from './Organizer/AddOrganizerModal';
 
 function Organizer() {
     const [organizers, setOrganizers] = useState([]);
@@ -33,6 +33,11 @@ function Organizer() {
     const [totalPages, setTotalPages] = useState(0);
     const [selectedOrganizer, setSelectedOrganizer] = useState(null);
     const [isDetailLoading, setIsDetailLoading] = useState(null);
+    const [isUpdateModalOpen, setIsUpdateModalOpen] = useState(false);
+    const [selectedUpdateOrganizer, setSelectedUpdateOrganizer] = useState(null);
+    const [isDeleteModalOpen, setIsDeleteModalOpen] = useState(false);
+    const [selectedDeleteOrganizer, setSelectedDeleteOrganizer] = useState(null);
+    const [isAddModalOpen, setIsAddModalOpen] = useState(false);
     const { token } = useContext(AuthContext);
 
     useEffect(() => {
@@ -74,6 +79,20 @@ function Organizer() {
         }
     };
 
+    const handleUpdate = (organizer) => {
+        setSelectedUpdateOrganizer(organizer);
+        setIsUpdateModalOpen(true);
+    };
+
+    const handleDelete = (organizer) => {
+        setSelectedDeleteOrganizer(organizer);
+        setIsDeleteModalOpen(true);
+    };
+
+    const handleAdd = () => {
+        setIsAddModalOpen(true);
+    };
+
     return (
         <>
             <Layout>
@@ -105,7 +124,7 @@ function Organizer() {
                                     ))}
                                 </MenuList>
                             </Menu>
-                            
+                            <Button onClick={handleAdd}>Add Organizer</Button>
                         </HStack>
                         {isLoading ? (<Spinner />
                         ) : (
@@ -128,8 +147,8 @@ function Organizer() {
                                                 <Td>
                                                     <Box display="flex" gap="5px" justifyContent="space-around">
                                                         <IconButton aria-label="View details" icon={isDetailLoading === organizer.id ? < Spinner /> : <ViewIcon />} colorScheme="blue" onClick={() => handleViewDetails(organizer.id)} />
-                                                        <IconButton aria-label="Update" icon={<EditIcon />} colorScheme="yellow" onClick={() => {/* Implement update functionality here */ }} />
-                                                        <IconButton aria-label="Delete" icon={<DeleteIcon />} colorScheme="red" onClick={() => {/* Implement delete functionality here */ }} />
+                                                        <IconButton aria-label="Update" icon={<EditIcon />} colorScheme="yellow" onClick={() => handleUpdate(organizer)} />
+                                                        <IconButton aria-label="Delete" icon={<DeleteIcon />} colorScheme="red" onClick={() => handleDelete(organizer)} />
                                                     </Box>
                                                 </Td>
                                             </Tr>
@@ -142,8 +161,38 @@ function Organizer() {
                 </Box>
             </Layout>
             {selectedOrganizer && (
-                <OrganizerDetails isOpen={!!selectedOrganizer} onClose={() => setSelectedOrganizer(null)} organizer={selectedOrganizer} />
+                <OrganizerDetails
+                    isOpen={!!selectedOrganizer}
+                    onClose={() => setSelectedOrganizer(null)}
+                    organizer={selectedOrganizer}
+                />
             )}
+            {selectedUpdateOrganizer && (
+                <UpdateOrganizerModal
+                    organizer={selectedUpdateOrganizer}
+                    isOpen={isUpdateModalOpen}
+                    onClose={() => setIsUpdateModalOpen(false)}
+                    updateOrganizer={(updatedOrganizer) => {
+                        setOrganizers(organizers.map((organizer) => organizer.id === updatedOrganizer.id ? updatedOrganizer : organizer));
+                    }}
+                />
+            )}
+            {selectedDeleteOrganizer && (
+                <DeleteOrganizerModal
+                    organizer={selectedDeleteOrganizer}
+                    isOpen={isDeleteModalOpen}
+                    onClose={() => {
+                        setIsDeleteModalOpen(false);
+                        setSelectedDeleteOrganizer(null);
+                    }}
+                    deleteOrganizer={(id) => {
+                        setOrganizers(organizers.filter((organizer) => organizer.id !== id));
+                    }}
+                />
+            )}
+            <AddOrganizerModal isOpen={isAddModalOpen} onClose={() => setIsAddModalOpen(false)} addOrganizer={(newOrganizer) => {
+                setOrganizers([...organizers, newOrganizer]);
+            }} />
         </>
     );
 }
