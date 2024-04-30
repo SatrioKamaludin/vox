@@ -10,10 +10,10 @@ This project is meant to implement already existing Backend API using ASP.NET Co
 
 ### Authentication
 - Register for a new account
-- Login with existing account
+- Login/Logout with existing account
 
 ### User
-- Search user info by ID
+- Search user's info by ID
 - Change your name and email
 - Change your password
 
