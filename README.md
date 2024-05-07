@@ -14,8 +14,10 @@ This project is meant to implement already existing Backend API using ASP.NET Co
 
 ### Authentication
 - Register for a new account
+  <br />
   ![2](https://github.com/SatrioKamaludin/vox/assets/8587427/47b0e9fc-1dc3-4763-8d5c-619f43bcb382)
 - Login/Logout with existing account
+  <br />
   ![1](https://github.com/SatrioKamaludin/vox/assets/8587427/a38cd6dc-9473-407b-8bbd-f6dbeca0cdf3)
 
 ### User
