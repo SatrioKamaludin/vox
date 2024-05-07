@@ -14,14 +14,18 @@ This project is meant to implement already existing Backend API using ASP.NET Co
 
 ### Authentication
 - Register for a new account
+  ![2](https://github.com/SatrioKamaludin/vox/assets/8587427/47b0e9fc-1dc3-4763-8d5c-619f43bcb382)
 - Login/Logout with existing account
+  ![1](https://github.com/SatrioKamaludin/vox/assets/8587427/a38cd6dc-9473-407b-8bbd-f6dbeca0cdf3)
 
 ### User
+![3](https://github.com/SatrioKamaludin/vox/assets/8587427/f5a40b12-6a5d-4119-89c2-2aa40a97abc5)
 - Search user's info by ID
 - Change your name and email
 - Change your password
 
 ### Organizer
+![6](https://github.com/SatrioKamaludin/vox/assets/8587427/52ad4980-bd0d-4730-b262-8062e18a484e)
 - Add organizer
 - Obtain all organizers
 - Obtain organizer's info
